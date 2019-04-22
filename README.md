@@ -12,4 +12,5 @@
 
 ### Settings file
 
-Go to [settings.json](./settings.json)
+Go to [settings.json](./settings.js)  
+(it has .js extension in order to properly display comments on github)
