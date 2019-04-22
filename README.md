@@ -1,4 +1,4 @@
-# my-vscode-settings
+# My VSCode Settings
 
 ### Theme
 
