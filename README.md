@@ -9,3 +9,7 @@
 - ESLint
 - Prettier - Code formatter
 - Todo Tree
+
+### Settings file
+
+Go to [settings.json](./settings.json)
