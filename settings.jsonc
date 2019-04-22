@@ -5,7 +5,7 @@
 
   // font settings
   "editor.fontFamily": "'Roboto Mono', monospace",
-  "editor.fontSize": 13,
+  "editor.fontSize": 13.5,
   "editor.lineHeight": 23,
 
   // theme settings and colors customization
@@ -29,7 +29,7 @@
     "tab.inactiveBackground": "#15171d",
 
     "panel.background": "#15171d",
-    "panel.border": "#15171d"
+    "panel.border": "#000000"
   },
 
   /*
@@ -58,11 +58,18 @@
   // prettier
   "prettier.eslintIntegration": true,
 
-  // default formatters
+  // languages settings
   "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
+
