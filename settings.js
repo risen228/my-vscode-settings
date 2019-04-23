@@ -60,6 +60,9 @@
   "prettier.eslintIntegration": true,
 
   // languages settings
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -74,8 +77,5 @@
   },
 
   // fix slow intellisense issue
-  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib/",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  }
+  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib/"
 }
