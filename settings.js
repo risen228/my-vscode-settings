@@ -11,25 +11,26 @@
   // theme settings and colors customization
   "workbench.colorTheme": "Horizon",
   "workbench.colorCustomizations": {
-    "editor.background": "#191c24",
+    "editor.background": "#1b1e27",
 
-    "activityBar.background": "#0f1116",
-    "activityBar.border": "#0f1116",
+    "activityBar.background": "#0a0a0e",
+    "activityBar.border": "#0a0a0e",
 
-    "sideBar.background": "#14161d",
-    "sideBar.border": "#15171d",
+    "sideBar.background": "#161920",
+    "sideBar.border": "#161920",
+    "sideBarSectionHeader.background": "#111116",
 
-    "statusBar.background": "#0f1116",
-    "statusBar.border": "#0f1116",
+    "statusBar.background": "#0a0a0e",
+    "statusBar.border": "#0a0a0e",
 
-    "editorGroupHeader.tabsBackground": "#15171d",
-    "editorGroupHeader.tabsBorder": "#15171d",
+    "editorGroupHeader.tabsBackground": "#161920",
+    "editorGroupHeader.tabsBorder": "#161920",
 
-    "tab.activeBackground": "#0f1218",
-    "tab.inactiveBackground": "#15171d",
+    "tab.activeBackground": "#0a0a0e",
+    "tab.inactiveBackground": "#161920",
 
-    "panel.background": "#15171d",
-    "panel.border": "#000000"
+    "panel.background": "#161920",
+    "panel.border": "#0a0a0e"
   },
 
   /*
@@ -70,6 +71,11 @@
   "[jsonc]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // fix slow intellisense issue
+  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib/",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
-
