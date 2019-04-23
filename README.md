@@ -1,5 +1,7 @@
 # My VSCode Settings
 
+![Preview](./preview.png)
+
 ### Theme
 
 [Horizon Theme](https://horizontheme.netlify.com/)
