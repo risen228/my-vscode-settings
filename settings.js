@@ -11,6 +11,9 @@
   // theme settings and colors customization
   "workbench.colorTheme": "Horizon",
   "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0a0a0e",
+    "titleBar.inactiveBackground": "#0a0a0e",
+
     "editor.background": "#1b1e27",
 
     "activityBar.background": "#0a0a0e",
