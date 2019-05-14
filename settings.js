@@ -1,11 +1,11 @@
 {
   // window settings (must have for unix systems)
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "native",
   "window.enableMenuBarMnemonics": false,
 
   // font settings
-  "editor.fontFamily": "'Roboto Mono', monospace",
-  "editor.fontSize": 13.5,
+  "editor.fontFamily": "'Ubuntu Mono', monospace",
+  "editor.fontSize": 15,
   "editor.lineHeight": 23,
 
   // theme settings and colors customization
@@ -45,6 +45,9 @@
   "workbench.statusBar.feedback.visible": false,
   "explorer.openEditors.visible": 0,
 
+  // more beautiful explorer
+  "vsicons.presets.hideExplorerArrows": true,
+
   // move and delete files without confirmation
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -61,6 +64,7 @@
 
   // prettier
   "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
 
   // languages settings
   "[html]": {
@@ -78,7 +82,8 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
-  // fix slow intellisense issue
-  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib/"
+  "workbench.startupEditor": "newUntitledFile",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
