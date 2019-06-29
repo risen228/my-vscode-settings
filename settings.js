@@ -1,6 +1,7 @@
 {
-  // window settings (must have for unix systems)
-  "window.titleBarStyle": "native",
+  // window settings
+  "window.titleBarStyle": "custom",
+  "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
 
   // font settings
@@ -42,11 +43,7 @@
 
   // Hide unnecessary stuff
   "editor.minimap.enabled": false,
-  "workbench.statusBar.feedback.visible": false,
   "explorer.openEditors.visible": 0,
-
-  // more beautiful explorer
-  "vsicons.presets.hideExplorerArrows": true,
 
   // move and delete files without confirmation
   "explorer.confirmDragAndDrop": false,
@@ -67,23 +64,13 @@
   "prettier.tslintIntegration": true,
 
   // languages settings
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
   "[javascript]": {
-    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.startupEditor": "newUntitledFile",
-  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
