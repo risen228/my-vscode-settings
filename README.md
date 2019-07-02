@@ -14,5 +14,8 @@
 
 ### Settings file
 
-Go to [settings.json](./settings.js)  
+Go to
+- [settings.json](./settings.js) - unix
+- [settings.json](./settings-for-windows.js) - windows
+
 (it has .js extension in order to properly display comments on github)
