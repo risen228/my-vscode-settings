@@ -8,7 +8,6 @@
   "editor.fontFamily": "'Ubuntu Mono', monospace",
   "editor.fontSize": 14,
   "editor.lineHeight": 22,
-  "editor.letterSpacing": 0.1,
 
   // theme settings and colors customization
   "workbench.colorTheme": "Horizon",
@@ -54,6 +53,14 @@
    * Settings below is optional and depend on your preferences
    */
 
+  "editor.tabSize": 2,
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  // icons
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.presets.hideExplorerArrows": true,
+
   // flow tweaks
   "javascript.validate.enable": false,
   "flow.useBundledFlow": true,
@@ -78,5 +85,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

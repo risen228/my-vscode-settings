@@ -53,6 +53,16 @@
    * Settings below is optional and depend on your preferences
    */
 
+  "editor.tabSize": 2,
+
+  // icons
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.presets.hideExplorerArrows": true,
+
+  // flow tweaks
+  "javascript.validate.enable": false,
+  "flow.useBundledFlow": true,
+
   // choose what you want
   "workbench.panel.defaultLocation": "right",
 
@@ -71,6 +81,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
